@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>Base Converter App</title>
+</head>
+<body id="converter-app-body">
+    <section id="converter-app-form-section">
+        <form id="converter-app-form" action="submit">
+            <h1>Base Converter</h1>
+            <div> 
+                <input id="number-input" type="number" placeholder="Number" name="number" required>
+                <p class="input-validator-message" id="number-error-message" ></p>
+            </div>
+             <div>
+                <input id="number-input" type="number" placeholder="Base" name="base" required>
+                <p class="input-validator-message" id="base-error-message"></p>
+            </div>
+            <button class="btn-primary">CONVERT</button>
+        </form>
+        <div id="output-information">
+            <h4>Converted Number:</h4>
+            <div id="converted-value-container">
+                <p id="conerted-value">____________________</p>
+                <img class="mini-img" id="copy" src="../resources/copy.png" alt="">
+            </div>
+            
+        </div>
+    </section>
+</body>
+
+<script src="../application code(javascript)/ConverterApp.js"></script>
+</html>
