@@ -114,7 +114,7 @@ This project was created to explore how **Abstract Data Types (ADTs)** like stac
 
 ## 📸 Screenshot
 
-![screenshot-placeholder](./resources/convertor.png)
+![screenshot-placeholder](./resources/convertor.jpg)
 
 ---
 
